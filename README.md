@@ -5,14 +5,14 @@ Wooclap spamming tool allows you to spam a wooclap poll with a large number of u
 ## Installation
 
 ```bash
-git clone 
-cd wooclap
+git clone https://github.com/Xabierland/Wooclap.git
+cd Wooclap
 pip install -r requirements.txt
 ```
 
 ## Usage
 
 ```bash
-python wooclap.py
+python Wooclap.py
 # Follow the instructions in the terminal
 ```
