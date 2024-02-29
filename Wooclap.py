@@ -35,7 +35,7 @@ def generate_random_user(driver):
 def select_emoji():
     global emoji
     try:
-        emoji_option = int(input("Selecciona el emoji a usar:\n1. 👍\n2. 💙\n3. 🔥\n4. 😯\n5. 🎉\n6. Aleatorio\nOpción: "))
+        emoji_option = int(input("Selecciona el emoji a usar:\n\t1. 👍\n\t2. 💙\n\t3. 🔥\n\t4. 😯\n\t5. 🎉\n\t6. Aleatorio\nOpción: "))
     except EOFError:
         print("No se ha proporcionado ninguna entrada.")
         emoji_option = 1
